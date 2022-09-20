@@ -25,17 +25,17 @@
 |-|-|
 |`login` ___or___ `signin`|`login` ___and___ `signin`|
 |`var bottomBar = [home, podcasts, search, profile];`|`var hpsp = [tab1, tab2, tab3, tab4];`|
-|`double calculateCircleArea(double radius) => pi * radius * radius;`|`double a(double x) => pi x * x;`|
+|`double calculateCircleArea(double radius) => pi * radius * radius;`|`double a(double x) => pi * x * x;`|
 |`class Storage<Data> {}`|`class Storage<T> {}`|
 |`class TrendingAlbumsWidget extends StatelessWidget {}`|`class Trending extends StatelessWidget {}`|
-|`class FileStorage<Data> extends Storage<Data>`|`class MyStorage<T> extends Storage<T> {}`|
+|`class FileStorage<Data> extends Storage<Data> {}`|`class MyStorage<T> extends Storage<T> {}`|
 |`int dogsCount = 10;`|`int abcd = 10;`|
 |`int dogsCount = 10;`|`int int_dogsCount = 10;`|
 |`var peopleCount = 0;`|`var pplc = 0;`|
 |`displayAsList(trending);`|`displayAsList(category2);`|
 |`for (var tedTalk in tedTalks)`|`for (var x in list)`|
 |`for(var i = 0; i < 10; i++)`|`for(var abc = 0; abc < 10; abc++)`|
-|`Data readDataFrom<Source>(Source source) {//impl};`|`Data readDataFrom<Source>(Source file) {//impl};`|
+|`Data readDataFrom<Source>(Source source) {}`|`Data readDataFrom<Source>(Source file) {;`|
 
 ---
 

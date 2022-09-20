@@ -17,10 +17,10 @@
 |:white_check_mark:|:no_entry_sign:|
 |-|-|
 |`}`|`} // close if bracket`|
-|`var circleArea = r*r*pi // circle area;`|`var circleArea = r*r*pi // calculate circle area;`|
+|`var circleArea = r*r*pi;`|`var circleArea = r*r*pi; // calculate circle area`|
 |`var minutes = 100;`|`var time = 100; //minutes`|
-|`See TCP (Transmission Control Protocol): https://datatracker.ietf.org/doc/html/rfc9293`|_no context_|
-|`TODO: Implement saving to the file`|_empty function_|
+|`// See TCP (Transmission Control Protocol): https://datatracker.ietf.org/doc/html/rfc9293`|_no context_|
+|`// TODO: Implement saving to the file`|_empty function_|
 |`// Things that were already tried to optimize this function:`|_no comment_|
 
 ### :white_check_mark: Edge case & decision clarification example:

@@ -11,5 +11,5 @@
 ## Examples
 |:white_check_mark:|:no_entry_sign:|
 |-|-|
-|`double calculateCircleArea(double radius) => pi * radius * radius;`|`double a(double x) => pi x * x;`|
-|`void changePassword(string oldPassword, string newPassword) {//impl};`|`void changePassword(string oldPassword, string newPassword, string address) {//impl};`|
+|`double calculateCircleArea(double radius) => pi * radius * radius;`|`double a(double x) => pi * x * x;`|
+|`void changePassword(String oldPassword, String newPassword) {};`|`void changePassword(String oldPassword, String newPassword, String address) {};`|

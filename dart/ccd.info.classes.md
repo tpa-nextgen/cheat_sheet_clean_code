@@ -16,4 +16,4 @@
 |-|-|
 |`class Storage<Data> {}`|`class Storage<T> {}`|
 |`class TrendingAlbumsWidget extends StatelessWidget {}`|`class Trending extends StatelessWidget {}`|
-|`class FileStorage<Data> extends Storage<Data>`|`class MyStorage<T> extends Storage<T> {}`|
+|`class FileStorage<Data> extends Storage<Data> {}`|`class MyStorage<T> extends Storage<T> {}`|

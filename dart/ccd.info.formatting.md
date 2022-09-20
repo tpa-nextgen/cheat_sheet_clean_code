@@ -143,17 +143,17 @@ return SomeWidget(child: const Text("abc", textAlign: TextAlign.center, overflow
 :white_check_mark:
 ```dart
 return users
-    .map((user) => user.moviesWatched)
+    .expand((user) => user.moviesWatched)
     .toSet() // distinct
-    .toList() // distinct
-    .filter((movie) => movie.genree == Genree.horror)
-    .filter((movie) => movie.rating > 3.5)
-    .sort((movie1, movie2) => movie1.year < movie2.year);
+    .where((movie) => movie.genree == Genree.horror)
+    .where((movie) => movie.rating > 3.5)
+    .toList()
+    ..sort((movie1, movie2) => movie1.year.compareTo(movie2.year));
 ```
 
 :no_entry_sign:
 ```dart
-return users.map((user) => user.moviesWatched).toSet().toList().filter((movie) => movie.genree == Genree.horror).filter((movie) => movie.rating > 3.5).sort((movie1, movie2) => movie1.year < movie2.year);
+return users.expand((user) => user.moviesWatched).toSet().where((movie) => movie.genree == Genree.horror).where((movie) => movie.rating > 3.5).toList()..sort((movie1, movie2) => movie1.year.compareTo(movie2.year));
 ```
 
 ---
