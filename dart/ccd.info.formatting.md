@@ -2,8 +2,8 @@
 
 ## Tips
 - :white_check_mark: Use indentation
-- :white_check_mark: Keep indentation consistent
-- :no_entry_sign: Write multiple instructions in a single line
+- :white_check_mark: Keep indentation consistent (e.g. tabs or spaces, spaces count)
+- :no_entry_sign: Do not write multiple instructions in a single line
 - :white_check_mark: Structure the content of a scope with new lines, similar to paragraphs separation
 - :white_check_mark: Define parameters in new lines if neccessary
 - :white_check_mark: Break arguments passing into new lines if neccessary
@@ -15,10 +15,10 @@
     - eg.: whether tab or spaces should be used for indentation
     - eg.: how many character (at maximum) should a single line consist of
     - eg.: how long should functions be (at maximum)
+- :no_entry_sign: Do not violate projects formatting style
 - :white_check_mark: In a class it might be good to keep constructors first, then public methods and then private ones
-- :no_entry_sign: Do not mix placement of class methods & properties
-- :no_entry_sign: Do not violate project formatting style
-- :white_check_mark: There are tools that automate formatting checks (eg. [lints](https://pub.dev/packages/lints) or [flutter_lints](https://pub.dev/packages/flutter_lints))
+- :no_entry_sign: Do not mix class methods & properties (i.e. keep all properties together and all methods together)
+- :white_check_mark: There are tools that automate formatting checks which you can use (eg. [lints](https://pub.dev/packages/lints) or [flutter_lints](https://pub.dev/packages/flutter_lints))
 
 ## Examples
 

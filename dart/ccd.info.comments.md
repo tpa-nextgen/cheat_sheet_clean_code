@@ -5,10 +5,10 @@
 - :no_entry_sign: Do not repeat what the code does
 - :no_entry_sign: Do not explain variable names
 - :white_check_mark: Use as last resort
-- :white_check_mark: Use to expand the context
-- :white_check_mark: Use to link external resource (eg. standard or algorithm theory)
-- :white_check_mark: Use to explain or clairify decisions
-- :white_check_mark: Use to explain edge case
+- :white_check_mark: Use to expand the context:
+    - Use to explain or clairify decisions
+    - Use to explain edge case
+    - Use to link external resource (eg. standard or algorithm theory)
 - :white_check_mark: Use to mark things to be done (___TODO___ comment)
 - :white_check_mark: Use to highlight what has been tried already to improve the function
 - :white_check_mark: Use `///` (three-slash comments) to provide documentation of a class/function/property

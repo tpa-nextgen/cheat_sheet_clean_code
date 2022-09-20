@@ -1,8 +1,8 @@
 # Naming
 
 ## Tips
-- :white_check_mark: Keep consistency (use same name for same meaning)
-- :no_entry_sign: Do not use redundant names (different names for same meaning)
+- :white_check_mark: Keep consistency (use the same name for the same meaning)
+- :no_entry_sign: Do not use redundant names (different names for the same meaning)
 - :white_check_mark: Use descriptive names (clear intentions):
     - variable name should indicate its content meaning
     - method name should describe clearly what it does
@@ -11,6 +11,7 @@
 - :no_entry_sign: Do not use names that mean nothing or are ambigious
 - :warning: Avoid unclear abbreviations
 - :warning: Avoid using type name in variable name
+- :white_check_mark: Keep a glossary of domain-specific names and abbreviations
 - :white_check_mark: Vary names length:
     - eg.: local & loop variables may be shorter
     - eg.: fields, properties and parameters may need be longer
