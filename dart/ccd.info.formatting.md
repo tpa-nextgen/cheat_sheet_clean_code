@@ -6,11 +6,11 @@
 - :no_entry_sign: Do not write multiple instructions in a single line
 - :white_check_mark: Structure the content of a scope with new lines, similar to paragraphs separation
 - :white_check_mark: Define parameters in new lines if neccessary
-- :white_check_mark: Break arguments passing into new lines if neccessary
+- :white_check_mark: Break arguments passing into new lines if necessary
 - :white_check_mark: Split chained calls into separate lines
 - :no_entry_sign: Do not mix styles of a single definition/call:
     - if some parameters/arguments are split into separate lines, keep them all that way
-- :white_check_mark: Agree on with a team & stick to the formatting style rules of a project:
+- :white_check_mark: Maintain the existing formatting style rules of your project or team:
     - eg.: whether or not opening brace `{` should be in a new line
     - eg.: whether tab or spaces should be used for indentation
     - eg.: how many character (at maximum) should a single line consist of
