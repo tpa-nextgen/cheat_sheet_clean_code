@@ -1,7 +1,7 @@
 # Classes
 
 ## Tips
-- :white_check_mark: Name should represent what is its role
+- :white_check_mark: Name should directly indicate purpose / role / responsibility
 - :white_check_mark: Name should represent how the class is being implemented (e.g. include official algorithm name)
 - :white_check_mark: Classes should tend to be small (e.g. don't mix functionalities, keep it compact)
 - :white_check_mark: Follow the [___SOLID principles___](./ccd.info.principles.md#SOLID)
