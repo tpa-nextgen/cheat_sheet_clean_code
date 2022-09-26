@@ -8,11 +8,11 @@
     - method name should describe clearly what it does
     - class/interface name should indicate what is its role
     - class that implements abstraction should indicate how it is doing so
-- :no_entry_sign: Do not use names that mean nothing or are ambigious
+- :no_entry_sign: Do not use names that mean nothing or are ambiguous
 - :warning: Avoid unclear abbreviations
 - :warning: Avoid using type name in variable name
 - :white_check_mark: Keep a glossary of domain-specific names and abbreviations
-- :white_check_mark: Vary names length:
+- :white_check_mark: Vary name length based on clarity:
     - eg.: local & loop variables may be shorter
     - eg.: fields, properties and parameters may need be longer
 - :white_check_mark: Use well-known standards
