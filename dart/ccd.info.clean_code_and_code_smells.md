@@ -9,7 +9,7 @@
 |Fast|Slow|
 |Optimized|Unoptimized|
 |Tested|Untested|
-|Indepednent|Highly-dependent|
+|Independent|Highly-dependent|
 |Practical only repetition|Same chunks of code in many places|
 |Unambiguous|Ambiguous|
 |Self-explanatory|Difficult to understand|
