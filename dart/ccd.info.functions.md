@@ -6,7 +6,8 @@
 - :warning: Avoid `loops` and `if` nesting
 - :no_entry_sign: Should not define unused parameters
 - :no_entry_sign: Implementation should not be too long
-- :no_entry_sign: Do not mix abstractions (either do/calculate something or orchestrate things)
+- :no_entry_sign: Do not mix abstractions
+    - either do/calculate something yourself, or orchestrate what other components do... not both.
 
 ## Examples
 |:white_check_mark:|:no_entry_sign:|
