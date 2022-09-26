@@ -1,7 +1,7 @@
 # Comments
 
 ## Tips
-- :no_entry_sign: Do not use comments as an excuse to poorly written code
+- :no_entry_sign: Do not use comments as an excuse for poorly written code
 - :no_entry_sign: Do not repeat what the code does
 - :no_entry_sign: Do not explain variable names
 - :white_check_mark: Use as last resort
